@@ -50,7 +50,7 @@ export default function ServiceArea() {
               allowFullScreen={true} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              className="absolute inset-0 grayscale contrast-125 opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-700"
+              className="absolute inset-0"
               title="Mapa ALX Instalações Elétricas"
             ></iframe>
           </motion.div>
