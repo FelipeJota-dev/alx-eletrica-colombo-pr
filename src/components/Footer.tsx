@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-1">
             <img 
-              src="https://i.imgur.com/uUz5E9r.png" 
+              src="https://i.imgur.com/UxNDsrv.png" 
               alt="ALX Instalações Elétricas Logo" 
               className="h-16 w-auto mb-6"
             />

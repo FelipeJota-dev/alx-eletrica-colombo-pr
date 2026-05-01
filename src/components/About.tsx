@@ -48,11 +48,18 @@ export default function About() {
           >
             <div className="absolute -inset-4 border border-gray-800 rounded-2xl transform rotate-3 -z-10 bg-[#1A1A1A]/30"></div>
             <div className="absolute -inset-4 border border-[#FF1F1F]/20 rounded-2xl transform -rotate-2 -z-10"></div>
-            <img 
-              src="https://i.imgur.com/WfWlkrx.jpeg" 
-              alt="Sobre a ALX Instalações Elétricas" 
-              className="w-full h-auto object-cover rounded-xl shadow-2xl relative z-10 aspect-[4/3] lg:aspect-[4/5] xl:aspect-[4/4]"
-            />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 relative z-10 w-full h-auto">
+              <img 
+                src="https://i.imgur.com/WfWlkrx.jpeg" 
+                alt="Proprietário da ALX Instalações Elétricas" 
+                className="w-full h-full object-cover rounded-xl shadow-2xl aspect-[4/3] md:aspect-auto"
+              />
+              <img 
+                src="https://i.imgur.com/UxNDsrv.png" 
+                alt="ALX Instalações Elétricas Logo" 
+                className="w-full h-full object-cover bg-[#0A0A0A] p-6 rounded-xl shadow-2xl border border-gray-800 aspect-[4/3] md:aspect-auto"
+              />
+            </div>
           </motion.div>
         </div>
       </div>

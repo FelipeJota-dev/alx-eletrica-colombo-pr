@@ -31,7 +31,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <a href="#inicio" className="flex items-center gap-3 relative z-50">
-          <img src="https://i.imgur.com/uUz5E9r.png" alt="ALX Instalações Elétricas Logo" className="h-[52px] w-auto relative scale-[1.15]" />
+          <img src="https://i.imgur.com/UxNDsrv.png" alt="ALX Instalações Elétricas Logo" className="h-[52px] w-auto relative scale-[1.15]" />
         </a>
 
         {/* Desktop Nav */}
